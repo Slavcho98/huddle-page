@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+#nav-bar > button {
+    width: 150px;
+    padding: .6rem;
+    border-radius: 20px;
+    border: 1px solid hsl(321, 100%, 78%);
+    background-color: transparent;
+    
+}
+
+#nav-bar > button > a {
+    text-decoration: none;
+    color: hsl(321, 100%, 78%);
+}
+
+#nav-bar > img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.main-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:  100px;
+    gap: 30px;
+}
+
+.man-sec h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+
+.main-sec p {
+    width: 60%;
+    font-size: 18px;
+}
+
+.hero-btn {
+    width: 230px;
+    padding: 1rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+}
+
+.main-sec img {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+
+.numbers h1 {
+    font-size: 2.5em;
+}
+
+.communities-msg {
+    max-width: 20%;
+}
+
+.message-img{
+    width: 25%;
+}
+
+/* SECTION-1 */
+
+.section-1 .top-img-1 {
+    width: 100%;
+    position: relative;
+    top: 20px;
+    
+}
+
+.sec-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eeffff;
+    position: relative;
+}
+
+.sec-box-1 {
+    margin-top: 50px;
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+.sec-box-2 > img {
+    width: 350px;
+}
+
+.bottom-img-1 {
+    width: 100%;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+.box-1 img {
+    width: 350px;
+}
+
+
+/* SECTION 3 */
+
+.users-box {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    line-height: 2;
+    background-color: #eeffff;
+}
+
+.user-2 img {
+    margin-top: 10px;
+    width: 350px;
+}
+
+
+.user-img-1, .user-img-2 {
+    width: 100%
+}
+
+.user-img-1 {
+    position: relative;
+    top: 10px;
+}
+
+.action {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.action .hero-btn {
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 100px;
+}
+
+footer img {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    
+}
+
+.footer-box-1 img {
+    width: 150px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    line-height: 1.8;
+    background-color: #00252e;
+    color: #fff;
+}
+
+.footer-box-1 p {
+    margin: 20px 0;
+}
+
+.footer-box-2 p{
+    margin: 20px 0;
+}
+
+.footer-box-2 input {
+    padding: .6em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.subscribe {
+    padding: .6em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+}
+
+.subscribe:active {
+   background-color: hsl(321, 100%, 78%);
+}
+
+.icons i {
+    margin: 0 2px;
+}
+
+@media (min-width: 375px) and (max-width: 700px) {
+
+#nav-bar {
+    margin: 10px;
+}
+    .main-sec h1 {
+          font-size: 1.5em;
+    }
+
+    .main-sec p {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    .main-sec img {
+        width: 300px;
+    }
+
+    .numbers {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    }
+
+    .sec-container-1 {
+        flex-wrap: wrap-reverse;
+        margin-top: 10px;
+    }
+
+   .sec-box-1 {
+    flex-basis: 250px;
+    text-align: center;
+    font-size: .9em;
+    }
+
+    .sec-box-2 img {
+        width: 250px;
+        margin-top: 20px;
+    }
+
+    .section-2 {
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 30px;
+        font-size: .9em;
+    }
+
+    .box-1 img {
+        width: 250px;
+    }
+
+     .user-1 {
+        flex-basis: 250px;
+     }
+
+    .users-box {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        gap: 30px;
+        font-size: .9em;
+    }
+    
+    .user-2 img {
+        width: 250px;
+    }
+
+    .footer-wrapper {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        height: 100vh;
+        margin-top: 5px;
+        font-size: 12px;
+        gap: 0;
+    }
+    
+    .footer-box-2 {
+        margin-left: 30px;
+    
+    }
+   
+    .icons i {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    
+    
+}
